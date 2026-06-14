@@ -16,6 +16,9 @@ public class Auth {
 		return "Form Submit";
 	}
 	
-	
+	@GetMapping("/Reset")
+	public String Reset() {
+		return "Return the API";
+	}
 	
 }
