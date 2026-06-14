@@ -15,6 +15,12 @@ public class Auth {
 		
 		return "Form Submit";
 	}
+
+	@GetMapping("/Delete")
+	public String Delete(){
+		return "Delete API"
+	}
+
 	
 	@GetMapping("/Reset")
 	public String Reset() {
